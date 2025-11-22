@@ -52,7 +52,7 @@ const UserForm = () => {
                 name="name"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Nombre</FormLabel>
+                    <FormLabel>Primer Nombre</FormLabel>
                     <FormControl>
                       <Input placeholder="Nombre" {...field} />
                     </FormControl>
@@ -115,7 +115,7 @@ const UserForm = () => {
           <Button
             onClick={() => eliminar()}
             type="button"
-            className="w-full mt-5"
+            className="w-full mt-5 useState"
           >
             reset
           </Button>

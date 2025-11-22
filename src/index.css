@@ -1,3 +1,6 @@
+*{
+  color:black;
+}
 @import "tailwindcss";
 @import "tw-animate-css";
 

@@ -1,6 +1,13 @@
-import UserForm from "./Form";
+import Header from "./Header";
+import Welcome from "./Main/Welcome"
+import Tarjets from "./Main/Tarjets.tsx"
 const Main = () => {
-  return <UserForm />;
-};
-
-export default Main;
+  return (
+    <>
+      <Header />
+      <Welcome />
+      <Tarjets />
+    </>
+  )
+}
+export default Main; 
